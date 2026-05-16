@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: PaulaNatalie;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+  font-family: PaulaNatalie; /* set name */
+  src: url('/resources/Paula\ Natalie.otf'); /* url of the font */
+}
+
+header {
+    width: 100vw;
+    height: 8vh;
+    background-color: #FC8EAC;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: #FFC0C0;
+    border-bottom-width: 0.6vh;
+}
+
+header h1 {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+header h1 a {
+    color: #FF4D6D;
+    font-size: 4vh;
+    text-shadow: 0.25vh 0.25vh #C9184A;
+    text-decoration: none;
+}
+
+.vertical-line-header {
+    border-color: #C9184A;
+    border-width: 0.35vh;
+    border-style: solid;
+    width: 0.1vw;
+    height: 5vh;
+}
+
+header ul {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header ul li {
+    color: #C9184A;
+    list-style: none;
+}
+
+.canary-link {
+    margin-left: auto;
+}
+
+header ul li a {
+    margin-left: 1vh;
+    margin-right: 3vh;
+    color: #C9184A;
+    font-size: 3vh;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.selected-link-header, .selected-link-header a {
+    color: #FF4D6D;
+}
+
+@keyframes bg-scrolling {
+    100% {
+        background-position-x: 200px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url('/images/background_beige.svg');
+    background-position: 0px;
+    background-color: beige;
+    animation: bg-scrolling 1s infinite;
+    animation-timing-function: linear;
+    width: 100vw;
+    height: 100%;
+}
+
+.center-infobox {
+    margin-top: 4vh;
+    width: 35vw;
+    height: 60vh;
+    background-color: #FFC0C0;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: #FC8EAC;
+    border-width: 1vh;
+    box-shadow: 1vw 1vw rosybrown;
+}
+
+.center-infobox h2 {
+    font-size: 3vh;
+    text-align: center;
+    color: #FF4D6D;
+    font-weight: bold;
+}
+
+.center-infobox p {
+    font-size: 2.25vh;
+    color: #C9184A;
+    padding: 1vh;
+}
+
+.center-infobox hr {
+    border-color: #FC8EAC;
+    border-width: 0.33vh;
+    border-style: dashed;
+}
+
+ul {
+    margin-left: 5vh;
+}
+
+ul li {
+    font-size: 2.25vh;
+    color: #C9184A;
+    padding: 1vh;
+}
+
+footer {
+    width: 100vw;
+    height: 6vh;
+    background-color: #FC8EAC;
+    margin-top: auto;
+    border-top-style: solid;
+    border-top-color: #FFC0C0;
+    border-top-width: 0.6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer p {
+    padding: 1vh;
+    font-size: 2vh;
+    color: #C9184A;
+}
+
+footer img {
+    height: 85%;
+    margin-right: 1vh;
+}
