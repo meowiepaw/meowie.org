@@ -141,6 +141,14 @@ ul li {
     padding: 1vh;
 }
 
+.meowie-introduction {
+    margin-top: 2vh;
+}
+
+.meowie-introduction li {
+    padding: 1vh;
+}
+
 footer {
     width: 100vw;
     height: 6vh;
