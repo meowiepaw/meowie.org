@@ -105,7 +105,7 @@ main {
     width: 35vw;
     height: 60vh;
     background-color: #FFC0C0;
-    border-radius: 20px;
+    border-radius: 3vh;
     border-style: outset;
     border-color: #FC8EAC;
     border-width: 1vh;
@@ -163,4 +163,74 @@ footer p {
 footer img {
     height: 85%;
     margin-right: 1vh;
+}
+
+.socials-infobox {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials-listcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+    gap: 1vh;
+}
+
+.socials-listcontainer li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    background-color: #FC8EAC;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+
+.socials-listcontainer li p {
+    font-size: 1.67vw;
+}
+
+.socials-listcontainer li a {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.socials-listcontainer li a img {
+    width: 6.7vh;
+}
+
+.username-socials-text {
+    color: #C9184A;
+    font-size: 2vw;
+    text-shadow: 0.25vh 0.25vh #FF4D6D;
+}
+
+.main-canary {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.canary-infobox {
+    margin-top: 0vh;
+    width: 35vw;
+    height: 10vh;
+}
+
+.canary-infobox iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.canary-data {
+    font-size: 3vw;
+    color: #C9184A;
 }
