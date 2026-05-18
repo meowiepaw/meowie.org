@@ -77,6 +77,10 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a:hover {
+    text-shadow: 0.25vh 0.25vh bisque;
+}
+
 .selected-link-header, .selected-link-header a {
     color: #FF4D6D;
 }
@@ -113,14 +117,14 @@ main {
 }
 
 .center-infobox h2 {
-    font-size: 3vh;
+    font-size: 1.5vw;
     text-align: center;
     color: #FF4D6D;
     font-weight: bold;
 }
 
 .center-infobox p {
-    font-size: 2.25vh;
+    font-size: 1.25vw;
     color: #C9184A;
     padding: 1vh;
 }
@@ -132,13 +136,13 @@ main {
 }
 
 ul {
-    margin-left: 5vh;
+    margin-left: 3vw;
 }
 
 ul li {
-    font-size: 2.25vh;
+    font-size: 1.25vw;
     color: #C9184A;
-    padding: 1vh;
+    padding: 0.5vw;
 }
 
 .meowie-introduction {
@@ -146,7 +150,7 @@ ul li {
 }
 
 .meowie-introduction li {
-    padding: 1vh;
+    padding: 0.5vh;
 }
 
 footer {
@@ -213,6 +217,12 @@ footer img {
 
 .socials-listcontainer li a img {
     width: 6.7vh;
+    padding: 0.25vh;
+}
+
+.socials-listcontainer li a img:hover {
+    background-color: bisque;
+    border-radius: 2vh;
 }
 
 .username-socials-text {
