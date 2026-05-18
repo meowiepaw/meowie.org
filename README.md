@@ -11,7 +11,6 @@ my personal website :33
 
 ## plans
 - make website pretty on mobile :3
-- make pics subcat exist x3
 - make subcat for hrt resources guides
 - make subcat for cool sites I like
 - make subcat for wishlisted items, games, software, etc!
