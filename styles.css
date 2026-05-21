@@ -108,8 +108,9 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 4vh;
+    margin-bottom: 4vh;
     width: 35vw;
-    height: 60vh;
+    height: fit-content;
     background-color: #FFC0C0;
     border-radius: 3vh;
     border-style: outset;
@@ -149,6 +150,7 @@ ul li {
 
 .meowie-introduction {
     margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 .meowie-introduction li {
@@ -284,6 +286,8 @@ footer img {
     width: 100%;
     padding-left: 0;
     margin-left: 0;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     gap: 1vh;
 }
 
@@ -324,6 +328,26 @@ footer img {
     text-shadow: 0.25vh 0.25vh #FF4D6D;
 }
 
+.coolsites-links {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.coolsites-links li {
+    padding: 0;
+    font-size: 1vw;
+}
+
+.coolsites-links li a {
+    font-size: 1vw;
+    font-weight: bold;
+    color: #C9184A;
+}
+
+.coolsites-links li a:hover {
+    color: #FF4D6D;
+}
+
 .main-canary {
     flex-direction: column;
     align-items: center;
@@ -334,6 +358,7 @@ footer img {
     margin-top: 0vh;
     width: 35vw;
     height: 10vh;
+    margin-bottom: 0vh;
 }
 
 .canary-infobox iframe {
