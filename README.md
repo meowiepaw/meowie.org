@@ -8,7 +8,6 @@ my personal website :33
 - picies of me and stuff i found cool :3
 - list of cool websites programs and subreddits
 - wishlist :333
-- canary to show im alivee (for various reasons)
 - more wip :3
 
 ## plans
