@@ -398,6 +398,8 @@ footer img {
 .wishlist-games-iframe-content {
     justify-content: start;
     align-items: start;
+    width: auto;
+    height: auto;
 }
 
 .wishlist-games-iframe-content ul {
