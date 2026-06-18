@@ -12,5 +12,8 @@ my personal website :33
 
 ## plans
 - make website pretty on mobile :3
-- make subcat for hrt resources guides
+- make proper big introduction page :333333
 - make subcat for current events and infos related to me for friends and generally everyone
+- make subcat for milestones
+- make subcat for goals!!!!!!!!
+- make subcat for scoreposting!!!
