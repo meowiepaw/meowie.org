@@ -15,5 +15,4 @@ my personal website :33
 
 ## plans
 - make website pretty on mobile :3
-
 - make subcat for current events and infos related to me for friends and generally everyone
